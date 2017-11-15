@@ -22,7 +22,7 @@ function appendDriver(name){
 }
 
 function prependDriver(name){
-
+  const allDrivers = [name, ...drivers];
 }
 
 function removeLastDriver(){
