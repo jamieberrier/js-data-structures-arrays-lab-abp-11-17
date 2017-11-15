@@ -21,9 +21,10 @@ function appendDriver(name){
   let array1 = [...drivers, name];
   return array1;
 }
-/*
+
 function prependDriver(name){
   const newFirstDriver = [name, ...drivers];
+  return newFirstDriver;
 }
 
 function removeLastDriver(){
@@ -34,4 +35,3 @@ function removeLastDriver(){
 function removeFirstDriver(){
   const noFirstDriver = drivers.slice(1);
 }
-*/
